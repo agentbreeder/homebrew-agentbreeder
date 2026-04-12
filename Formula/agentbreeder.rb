@@ -3,8 +3,8 @@ class Agentbreeder < Formula
 
   desc "Define Once. Deploy Anywhere. Govern Automatically — CLI for AgentBreeder"
   homepage "https://agent-breeder.com"
-  url "https://files.pythonhosted.org/packages/a8/ed/ed49ee730035fe26fa1c31931ed1b97a53b80f84f0203291bf6422cba475/agentbreeder-0.1.0.tar.gz"
-  sha256 "6d59b0dad0306123552625beb79f6711cfc0a3362844e4d2aa2df4a8e1780737"
+  url "https://files.pythonhosted.org/packages/8c/62/000d00d1fbc755ec55ae5e4aeadeb1a59c56980cf1715fdb854baa6796c3/agentbreeder-1.4.0.tar.gz"
+  sha256 "6a26685cad01bc5ff683fd0d50c0d375ee4cf16e94ba29c804f3c983e1c0a4b7"
   license "Apache-2.0"
   head "https://github.com/rajitsaha/agentbreeder.git", branch: "main"
 
@@ -17,8 +17,8 @@ class Agentbreeder < Formula
   # Core SDK (pulled as a dep by agentbreeder, listed here so Homebrew
   # resolves it within the virtualenv without hitting PyPI recursively).
   resource "agentbreeder-sdk" do
-    url "https://files.pythonhosted.org/packages/f4/b6/dac966a97ff3db6923ab6d5650a8d9cdf464bafcf56e6d2c3d68e52a7810/agentbreeder_sdk-0.1.0.tar.gz"
-    sha256 "ddec3330e68c62e16e54df44caa66551c01a2ad448861ead7365bfe5fce907d3"
+    url "https://files.pythonhosted.org/packages/5f/9f/90da0911bd132940f7544aa4c170c6d9b67b6849c681eed477705d10d368/agentbreeder_sdk-1.4.0.tar.gz"
+    sha256 "97ee4bdb8f231f10b8decff83aa2dc67be86695e0d866a47f826adc2491f5957"
   end
 
   resource "PyYAML" do
