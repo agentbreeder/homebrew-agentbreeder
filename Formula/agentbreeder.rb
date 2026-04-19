@@ -2,11 +2,11 @@ class Agentbreeder < Formula
   include Language::Python::Virtualenv
 
   desc "Define Once. Deploy Anywhere. Govern Automatically — CLI for AgentBreeder"
-  homepage "https://agent-breeder.com"
+  homepage "https://agentbreeder.io"
   url "https://files.pythonhosted.org/packages/14/7a/0bcb884fa9acb430ba61270627a6a06324c8ce21a7f29a841bf7a28a87ef/agentbreeder-1.9.0.tar.gz"
   sha256 "8b5975263768714e55bc5e2f92b409b919c555c3ee91842b9e7b73d3e9e88b3c"
   license "Apache-2.0"
-  head "https://github.com/rajitsaha/agentbreeder.git", branch: "main"
+  head "https://github.com/agentbreeder/agentbreeder.git", branch: "main"
 
   bottle do
     # Bottles generated automatically via CI — do not edit manually.
